@@ -22,7 +22,7 @@ $output .= '<table width="100%" border="1" cellpadding="5" cellspacing="0">
 	Para,<br />
 	<b>RECEPTOR (FACTURACIÓN A)</b><br />
 	Name : ' . $invoiceValues['order_receiver_name'] . '<br /> 
-	Dirección de Envio : ' . $invoiceValues['order_receiver_address'] . '<br />
+	DIRECCION DE FACTURA : ' . $invoiceValues['order_receiver_address'] . '<br />
 	</td>
 	<td width="35%">         
 	Factura no. : ' . $invoiceValues['order_id'] . '<br />
