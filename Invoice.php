@@ -52,7 +52,7 @@ class Invoice
 	public function checkLoggedIn()
 	{
 		if (!$_SESSION['userid']) {
-			header("Location:index.php");
+			header("Location:pagina.php");
 		}
 	}
 	public function saveInvoice($POST)

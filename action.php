@@ -12,6 +12,6 @@ if($_POST['action'] == 'delete_invoice' && $_POST['id']) {
 if($_GET['action'] == 'logout') {
 session_unset();
 session_destroy();
-header("Location:index.php");
+header("Location:pagina.php");
 }
 

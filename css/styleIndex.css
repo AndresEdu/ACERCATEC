@@ -297,6 +297,14 @@ button {
     margin-left: 20px;
 }
 
+.imagengrande{
+    width: 50px;
+    top: 15px;
+    right: 15px;
+    position: fixed;
+}
+
+
 .menu_iconb {
     background-image: linear-gradient(to bottom, #bc883d, #f5e47b, #bc883d);
     padding: 9px 38px;
@@ -365,6 +373,11 @@ button {
     line-height: 40px;
 }
 
+.imagenheader{
+    width: 100vw;
+    height: 70vh;
+}
+
 .banner_main {
     position: relative;
     margin-bottom: -1px;
@@ -424,6 +437,214 @@ button {
     flex-wrap: wrap;
 }
 
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 0.5fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+    
+.div1 { 
+    padding: 20px;
+    grid-area: 1 / 1 / 2 / 2; 
+}
+.div2 { 
+    padding: 20px;
+    grid-area: 1 / 2 / 2 / 3; 
+}
+.div3 { 
+    padding: 20px;
+    grid-area: 1 / 3 / 2 / 4; 
+}
+.div4 { 
+    padding: 20px;
+    grid-area: 1 / 4 / 2 / 5; 
+}
+.div5 { 
+    padding: 20px;
+    grid-area: 1 / 5 / 2 / 6; 
+}
+.div6 { 
+    padding: 20px;
+    grid-area: 2 / 2 / 3 / 3; 
+}
+.div7 { 
+    padding: 20px;
+    grid-area: 2 / 4 / 3 / 5; 
+}
+
+.tituloh{
+    font-size: 30px;
+    color: #000;
+}
+
+.aywey{
+    font-size: 20px;
+}
+
+.aywey span {
+    border: #f0e7b5 solid 1px;
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.horario{
+    font-size: 15px;
+}
+
+.mapa{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.acerca {
+    display: grid;
+    grid-template-columns: repeat(2, 0.5fr);
+    grid-template-rows: 0.5fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+    
+.div1A { 
+    
+    grid-area: 1 / 1 / 2 / 2;
+}
+.div2A { 
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.div1A, .div2A{
+    background-color: #e5e3e3;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+.acercate{
+    font-size: 20px;
+    color: #000;
+}
+
+.texto{
+    font-size: 15px;
+}
+
+.acercate span {
+    border: #f68f19 solid 1px;
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.valoresGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(7, 0.2fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+.div1Img {
+    grid-area: 1 / 1 / 8 / 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div2V {
+    grid-area: 1 / 2 / 2 / 4; 
+}
+.div3V {
+    grid-area: 2 / 2 / 3 / 4; 
+}
+.div4V {
+    grid-area: 3 / 2 / 4 / 4; 
+}
+.div5V {
+    grid-area: 4 / 2 / 5 / 4; 
+}
+.div6V {
+    grid-area: 5 / 2 / 6 / 4; 
+}
+.div7V {
+    grid-area: 6 / 2 / 7 / 4; 
+}
+.div8V {
+    grid-area: 7 / 2 / 8 / 4; 
+}
+.div2V, .div3V, .div4V, .div5V, .div6V, .div7V, .div8V {
+    background-color: #e5e3e3;
+    border-radius: 10px;
+    
+}
+.div9V {
+     grid-area: 1 / 2 / 2 / 3; 
+}
+.div10V {
+     grid-area: 1 / 3 / 2 / 4; 
+}
+.div11V {
+     grid-area: 2 / 2 / 3 / 3; 
+}
+.div12V {
+     grid-area: 2 / 3 / 3 / 4; 
+}
+.div13V {
+     grid-area: 3 / 2 / 4 / 3; 
+}
+.div14V {
+     grid-area: 3 / 3 / 4 / 4; 
+}
+.div15V {
+     grid-area: 4 / 2 / 5 / 3; 
+}
+.div16V {
+     grid-area: 4 / 3 / 5 / 4; 
+}
+.div17V {
+     grid-area: 5 / 2 / 6 / 3; 
+}
+.div18V {
+     grid-area: 5 / 3 / 6 / 4; 
+}
+.div19V {
+     grid-area: 6 / 2 / 7 / 3; 
+}
+.div20V {
+     grid-area: 6 / 3 / 7 / 4; 
+}
+.div21V {
+     grid-area: 7 / 2 / 8 / 3; 
+}
+.div22V {
+     grid-area: 7 / 3 / 8 / 4; 
+}
+.div9V, .div11V, .div13V, .div15V, .div17V, .div19V, .div21V{
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #000;
+    font-weight: bold;
+    margin: 5px;
+    padding: 5px;
+}
+.div10V, .div12V, .div14V, .div16V, .div18V, .div20V, .div22V{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+}
 
 /** casino section **/
 
@@ -757,7 +978,7 @@ border-radius: inherit;}
 
 .footer {
     background: #000000;
-    padding-top: 90px;
+    padding-top: 15px;
 }
 
 .newtetter {
@@ -868,7 +1089,6 @@ ul.loca li a {
 .copyright {
     background-image: linear-gradient(to bottom, #ccc, #ccc, #ccc);
     padding: 20px 0px;
-    margin-top: 70px;
 }
 
 .copyright p {
